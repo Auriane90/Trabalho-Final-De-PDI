@@ -17,3 +17,38 @@ Para a realização deste projeto, foi preciso:
   + [Matheus]()
   + [Yan Falcão](https://github.com/yanfalcao)
 - **ARTIGO ESCOLHIDO:** [Detection of Exudates and Microaneurysms in the Retina by Segmentation in Fundus Images](https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-95322021000200105&lang=pt)
+
+## DEPENDÊNCIAS
+Para este projeto, fizemos uso das bibliotecas `cv2`, `pyplot` e `numpy`
+
+```Python
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+**OBS:** Podemos instalar as dependências com o gestor de pacotes `pip`. Basta seguir os seguintes passos:
+1. Abra um terminal;
+2. Atualize o gerenciador de pacotes;
+```
+sudo apt-get updade
+```
+3. Instale o `pip`
+```
+sudo apt-get install python3-pip
+```
+
+Perfeito! Agora você está pronto para a intalação dos pacotes.
+
+### Instalação do **cv2**
+```
+pip install opencv-python
+```
+### Instalação do **pyplot**
+```
+python -m pip install -U matplotlib
+```
+### Instalação do **numpy**
+```
+pip install numpy
+```
